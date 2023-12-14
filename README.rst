@@ -23,7 +23,7 @@ Each file_index corresponds to an image file. The notebook gives a visual repres
     - 'dataset': the dataset the image belongs to
     - 'dataset_index': the index of the image in the dataset
 The dataset are uploaded on DataFed with id 	d/501306946 for the Bounding Boxes and d/501306069 for the Images.
-I will provide an easier  access to data in the future but email is da886@drexel for now.
+I will provide an easier  access to data in the future but email is da886@drexel.edu for now.
 
 
 

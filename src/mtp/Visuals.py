@@ -1,7 +1,11 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import pyfiglet
+
+
 # Load preprocessed data for a specific file (adjust file index as needed)
+
+
 file_index = 7
 imgs = np.load('/home/m3-learning/Documents/myML/Training/preprocessed_data/%03d_img.npz' % file_index, allow_pickle=True)
 boxes = np.load('/home/m3-learning/Documents/myML/Training/preprocessed_data/%03d_box.npz' % file_index, allow_pickle=True)
