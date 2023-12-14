@@ -1,27 +1,4 @@
-.. These are examples of badges you might want to add to your README:
-   please update the URLs accordingly
 
-    .. image:: https://api.cirrus-ci.com/github/<USER>/MTP.svg?branch=main
-        :alt: Built Status
-        :target: https://cirrus-ci.com/github/<USER>/MTP
-    .. image:: https://readthedocs.org/projects/MTP/badge/?version=latest
-        :alt: ReadTheDocs
-        :target: https://MTP.readthedocs.io/en/stable/
-    .. image:: https://img.shields.io/coveralls/github/<USER>/MTP/main.svg
-        :alt: Coveralls
-        :target: https://coveralls.io/r/<USER>/MTP
-    .. image:: https://img.shields.io/pypi/v/MTP.svg
-        :alt: PyPI-Server
-        :target: https://pypi.org/project/MTP/
-    .. image:: https://img.shields.io/conda/vn/conda-forge/MTP.svg
-        :alt: Conda-Forge
-        :target: https://anaconda.org/conda-forge/MTP
-    .. image:: https://pepy.tech/badge/MTP/month
-        :alt: Monthly Downloads
-        :target: https://pepy.tech/project/MTP
-    .. image:: https://img.shields.io/twitter/url/http/shields.io.svg?style=social&label=Twitter
-        :alt: Twitter
-        :target: https://twitter.com/MTP
 
 .. image:: https://img.shields.io/badge/-PyScaffold-005CA0?logo=pyscaffold
     :alt: Project generated with PyScaffold
@@ -34,10 +11,20 @@ MTP
 ===
 
 
-    Add a short description here!
+    Read the NotebookForCode
 
 
-A longer description of your project goes here...
+Each file_index corresponds to an image file. The notebook gives a visual representation of the data. The data is stored in a dictionary with the following keys:
+
+    - 'image': the image data
+    - 'label': the label of the image
+    - 'filename': the filename of the image
+    - 'file_index': the index of the image in the dataset
+    - 'dataset': the dataset the image belongs to
+    - 'dataset_index': the index of the image in the dataset
+The dataset are uploaded on DataFed with id 	d/501306946 for the Bounding Boxes and d/501306069 for the Images.
+I will provide an easier  access to data in the future but email is da886@drexel for now.
+
 
 
 .. _pyscaffold-notes:
