@@ -12,8 +12,6 @@ MTP
 
 
     Read the NotebookForCode
-
-
 Each file_index corresponds to an image file. The notebook gives a visual representation of the data. The data is stored in a dictionary with the following keys:
 
     - 'image': the image data
@@ -23,6 +21,10 @@ Each file_index corresponds to an image file. The notebook gives a visual repres
     - 'dataset': the dataset the image belongs to
     - 'dataset_index': the index of the image in the dataset
 The dataset are uploaded on DataFed with id 	d/501306946 for the Bounding Boxes and d/501306069 for the Images.
+
+    Read for FinalWork
+Data preprocessing code can be modified based on how the h5 files obtained from DataFed is stored.
+
 I will provide an easier  access to data in the future but email is da886@drexel.edu for now.
 
 
